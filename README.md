@@ -72,5 +72,5 @@ Commands received from Android via UART:
 ---
 
 ## Contributors
-. Hamza BELARBI
-. Ali AHNANI 
+- **Hamza BELARBI** 
+- **Ali AHNANI**
