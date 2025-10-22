@@ -1,17 +1,17 @@
-# 🤖 Mobile Robot Controlled via STM32 and Android App
+# Mobile Robot Controlled via STM32 and Android App
 
-## 📘 Project Overview
+##  Project Overview
 
 This project implements the control of a **mobile robot** using an **STM32 microcontroller** and an **Android application** via Bluetooth (HC-05).  
 The robot can move **forward**, **rotate right by 45°** or **rotate continuously to the right**, either as a short rotation or continuously while the command is active. 
 
 All motion commands are executed with **PWM motor control**, **GPIO-based direction**, and **timer-based rotation** for accurate, non-blocking control.
 
-> 🏫 This project was carried out as part of the **"Conception des Systèmes Électroniques 1"** course at **l'École des Mines de Saint-Étienne**.
+>  This project was carried out as part of the **"Conception des Systèmes Électroniques 1"** course at **l'École des Mines de Saint-Étienne**.
 
 ---
 
-## ⚙️ Features and Performance Parameters
+##  Features and Performance Parameters
 
 | Feature | Implementation / Value |
 |---------|------------------------|
@@ -26,7 +26,7 @@ All motion commands are executed with **PWM motor control**, **GPIO-based direct
 
 ---
 
-## 🧩 Hardware Overview
+##  Hardware Overview
 
 | Component | Description |
 |------------|-------------|
@@ -36,7 +36,7 @@ All motion commands are executed with **PWM motor control**, **GPIO-based direct
 | Power | Ni-Mh or Ni-Cd battery, rechargeable via 11 V supply. Fully charged ~8 V, considered discharged at ~6 V (test point 7.2 V). 8 V powers DC motors, 6 V for servo, and regulated 3.3 V for Nucleo board. |
 ---
 
-## 🔧 STM32CubeMX (.ioc) Configuration
+##  STM32CubeMX (.ioc) Configuration
 
 | Peripheral | Configuration | Purpose |
 |-------------|---------------|---------|
@@ -59,7 +59,7 @@ All motion commands are executed with **PWM motor control**, **GPIO-based direct
 
 ---
 
-## 📡 Communication Protocol
+##  Communication Protocol
 
 Commands received from Android via UART:
 
